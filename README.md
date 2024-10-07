@@ -65,3 +65,15 @@ $ npm run test:cov
 $ npx prisma migrate dev --name init
 
 ```
+
+Un servidor nube copado para deployar esto es [Railway](https://railway.app/)
+Para crear la base una vez inicializada en railway, hay que poner en .env la ruta productiva.
+Luego ejecutar
+
+```bash
+
+$ npx prisma db push
+
+```
+
+URL curso [Curso NEST](https://www.youtube.com/watch?v=wsqcg5ZtUMM&t=6669s&ab_channel=FaztCode)
